@@ -2,7 +2,7 @@
 # Licensed under the MIT License.
 
 steps:
-  - task: TerraformCLI@0
+  - task: TerraformTaskV2@0
     displayName: 'Terraform validate'
     inputs:
       backendType: 'azurerm'
